@@ -1,0 +1,83 @@
+HiveMQ Enterprise Extension for Kafka Third Party Libraries
+==============================
+
+HiveMQ Enterprise Extension for Kafka uses the following third party libraries:
+
+Library                                                            | License                                    | License text                                                      | Notes
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ch.qos.logback:logback-classic                                    | EPL, Version 1.0                           | https://opensource.org/licenses/EPL-1.0                           | 
+ ch.qos.logback:logback-core                                       | EPL, Version 1.0                           | https://opensource.org/licenses/EPL-1.0                           | 
+ com.damnhandy:handy-uri-templates                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.eclipsesource.minimal-json:minimal-json                       | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ com.esotericsoftware:kryo                                         | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ com.esotericsoftware:minlog                                       | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ com.esotericsoftware:reflectasm                                   | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ com.fasterxml.jackson.core:jackson-annotations                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.fasterxml.jackson.core:jackson-core                           | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.fasterxml.jackson.core:jackson-databind                       | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.github.ben-manes.caffeine:caffeine                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.github.everit-org.json-schema:org.everit.json.schema          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.github.luben:zstd-jni                                         | BSD 2-Clause License                       | https://opensource.org/licenses/BSD-2-Clause                      | 
+ com.google.code.findbugs:jsr305                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.code.gson:gson                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.dagger:dagger                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.errorprone:error_prone_annotations                     | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:failureaccess                                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:guava                                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:listenablefuture                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.j2objc:j2objc-annotations                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.re2j:re2j                                              | Go License                                 | https://golang.org/LICENSE                                        | 
+ com.sun.activation:jakarta.activation                             | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ com.sun.xml.bind:jaxb-impl                                        | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ com.vaadin.external.flute:flute                                   | W3C License                                | https://opensource.org/licenses/W3C                               | 
+ com.vaadin.external.gwt:gwt-elemental                             | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin.external:gentyref                                      | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-charts                                          | cval3                                      | https://vaadin.com/license/cval-3                                 | 
+ com.vaadin:vaadin-sass-compiler                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-server                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-shared                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-collections:commons-collections                           | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-digester:commons-digester                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-logging:commons-logging                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-validator:commons-validator                               | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.confluent:common-utils                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.confluent:kafka-avro-serializer                                | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.confluent:kafka-schema-registry-client                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.confluent:kafka-schema-serializer                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.confluent:logredactor                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.confluent:logredactor-metrics                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.dropwizard.metrics:metrics-core                                | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.github.classgraph:classgraph                                   | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ io.opentelemetry:opentelemetry-api                                | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.opentelemetry:opentelemetry-context                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.opentelemetry:opentelemetry-semconv                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.swagger.core.v3:swagger-annotations                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ jakarta.activation:jakarta.activation-api                         | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ jakarta.xml.bind:jakarta.xml.bind-api                             | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ javax.annotation:javax.annotation-api                             | CDDL, Version 1.1                          | https://oss.oracle.com/licenses/CDDL+GPL-1.1                      | 
+ javax.inject:javax.inject                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ javax.ws.rs:javax.ws.rs-api                                       | EPL, Version 2.0                           | https://opensource.org/licenses/EPL-2.0                           | 
+ joda-time:joda-time                                               | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ net.openhft:zero-allocation-hashing                               | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.avro:avro                                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.commons:commons-compress                               | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.commons:commons-lang3                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.kafka:kafka-clients                                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.bouncycastle:bcpkix-jdk15on                                   | Bouncy Castle License                      | https://www.bouncycastle.org/licence.html                         | 
+ org.bouncycastle:bcprov-jdk15on                                   | Bouncy Castle License                      | https://www.bouncycastle.org/licence.html                         | 
+ org.bouncycastle:bcutil-jdk15on                                   | Bouncy Castle License                      | https://www.bouncycastle.org/licence.html                         | 
+ org.checkerframework:checker-qual                                 | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.javers:javers-core                                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.json:json                                                     | The JSON License                           | http://json.org/license.html                                      | 
+ org.jsoup:jsoup                                                   | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.lz4:lz4-java                                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.objenesis:objenesis                                           | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.ow2.asm:asm                                                   | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ org.picocontainer:picocontainer                                   | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ org.slf4j:slf4j-api                                               | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.w3c.css:sac                                                   | W3C License                                | https://opensource.org/licenses/W3C                               | 
+ org.xerial.snappy:snappy-java                                     | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The open source code of the libraries can be obtained by sending an email to legal@hivemq.com.

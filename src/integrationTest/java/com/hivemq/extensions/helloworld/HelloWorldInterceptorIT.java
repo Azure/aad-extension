@@ -22,16 +22,26 @@ import com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5Publish;
 import com.hivemq.extension.sdk.api.annotations.NotNull;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
+import org.reflections.Reflections;
+import org.reflections.util.ConfigurationBuilder;
 import org.testcontainers.hivemq.HiveMQContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.utility.DockerImageName;
 import org.testcontainers.utility.MountableFile;
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.lang.reflect.Method;
 import java.nio.charset.StandardCharsets;
+import java.util.Collection;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.reflections.scanners.Scanners.MethodsReturn;
+import static org.reflections.scanners.Scanners.Resources;
 
 /**
  * This tests the functionality of the {@link HelloWorldInterceptor}.
@@ -47,11 +57,12 @@ class HelloWorldInterceptorIT {
 
     @Container
     final @NotNull HiveMQContainer extension = new HiveMQContainer(DockerImageName.parse("hivemq/hivemq-ce").withTag("latest"))
-            .withExtension(MountableFile.forClasspathResource("hivemq-hello-world-extension"));
+             .withExtension(MountableFile.forClasspathResource("hivemq-hello-world-extension"));
 
     @Test
     @Timeout(value = 5, unit = TimeUnit.MINUTES)
     void test_payload_modified() throws InterruptedException {
+
         final Mqtt5BlockingClient client = Mqtt5Client.builder()
                 .identifier("hello-world-client")
                 .serverPort(extension.getMqttPort())
@@ -64,7 +75,7 @@ class HelloWorldInterceptorIT {
         client.publishWith().topic("hello/world").payload("Good Bye World!".getBytes(StandardCharsets.UTF_8)).send();
 
         final Mqtt5Publish received = publishes.receive();
-        assertEquals("Hello World!", new String(received.getPayloadAsBytes(), StandardCharsets.UTF_8));
+        assertEquals("Wrong World!", new String(received.getPayloadAsBytes(), StandardCharsets.UTF_8));
         publishes.close();
     }
 }

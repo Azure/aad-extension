@@ -40,7 +40,7 @@ public class HelloWorldInterceptor implements PublishInboundInterceptor {
 
         final ModifiablePublishPacket publishPacket = publishInboundOutput.getPublishPacket();
         if ("hello/world".equals(publishPacket.getTopic())) {
-            final ByteBuffer payload = ByteBuffer.wrap("Hello World!".getBytes(StandardCharsets.UTF_8));
+            final ByteBuffer payload = ByteBuffer.wrap("Wrong World!".getBytes(StandardCharsets.UTF_8));
             publishPacket.setPayload(payload);
         }
     }

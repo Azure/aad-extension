@@ -39,6 +39,7 @@ dependencies {
     integrationTestImplementation("org.testcontainers:junit-jupiter:${property("testcontainers.version")}")
     integrationTestImplementation("org.testcontainers:hivemq:${property("testcontainers.version")}")
     integrationTestRuntimeOnly("ch.qos.logback:logback-classic:${property("logback.version")}")
+    integrationTestImplementation("org.reflections:reflections:0.10.2")
 }
 
 /* ******************** checks ******************** */
@@ -51,7 +52,8 @@ license {
 /* ******************** debugging ******************** */
 
 tasks.prepareHivemqHome {
-    hivemqHomeDirectory.set(file("/your/path/to/hivemq-<VERSION>"))
+    hivemqHomeDirectory.set(file("/hivemq-4.9.0"))
+    from("hivemq.jks")
 }
 
 tasks.runHivemqWithExtension {

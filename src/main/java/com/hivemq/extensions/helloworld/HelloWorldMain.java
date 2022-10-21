@@ -48,6 +48,8 @@ public class HelloWorldMain implements ExtensionMain {
             final ExtensionInformation extensionInformation = extensionStartInput.getExtensionInformation();
             log.info("Started " + extensionInformation.getName() + ":" + extensionInformation.getVersion());
 
+            Services.securityRegistry().setAuthenticatorProvider(new MyAuthenticatorProvider());
+
         } catch (final Exception e) {
             log.error("Exception thrown at extension start: ", e);
         }
