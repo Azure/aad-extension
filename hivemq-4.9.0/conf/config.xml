@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <hivemq>
-
+    <control-center>
+        <enabled>true</enabled>
+    </control-center>
     <listeners>
         <tcp-listener>
             <port>1883</port>
@@ -15,7 +17,11 @@
                     <password>123456</password>
                     <private-key-password>123456</private-key-password>
                 </keystore>
-                <client-authentication-mode>NONE</client-authentication-mode>
+                <client-authentication-mode>REQUIRED</client-authentication-mode>
+                <truststore>
+                    <path>hivemq.jks</path>
+                    <password>123456</password>
+                </truststore>
             </tls>
         </tls-tcp-listener>
     </listeners>
