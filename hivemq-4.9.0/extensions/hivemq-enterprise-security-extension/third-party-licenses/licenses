@@ -1,0 +1,64 @@
+HiveMQ Enterprise Security Extension Third Party Libraries
+==============================
+
+HiveMQ Enterprise Security Extension uses the following third party libraries:
+
+Library                                                            | License                                    | License text                                                      | Notes
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ch.qos.logback:logback-classic                                    | EPL, Version 1.0                           | https://opensource.org/licenses/EPL-1.0                           | 
+ ch.qos.logback:logback-core                                       | EPL, Version 1.0                           | https://opensource.org/licenses/EPL-1.0                           | 
+ com.fasterxml.jackson.core:jackson-annotations                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.fasterxml.jackson.core:jackson-core                           | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.fasterxml.jackson.core:jackson-databind                       | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.fasterxml.jackson.module:jackson-module-afterburner           | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.fasterxml.jackson.module:jackson-module-jsonSchema            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.github.scribejava:scribejava-apis                             | MIT                                        | https://github.com/scribejava/scribejava/blob/master/LICENSE.txt  | 
+ com.github.scribejava:scribejava-core                             | MIT                                        | https://github.com/scribejava/scribejava/blob/master/LICENSE.txt  | 
+ com.github.scribejava:scribejava-httpclient-apache                | MIT                                        | https://github.com/scribejava/scribejava/blob/master/LICENSE.txt  | 
+ com.github.scribejava:scribejava-java8                            | MIT                                        | https://github.com/scribejava/scribejava/blob/master/LICENSE.txt  | 
+ com.google.code.findbugs:jsr305                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.dagger:dagger                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.errorprone:error_prone_annotations                     | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:failureaccess                                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:guava                                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:listenablefuture                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.j2objc:j2objc-annotations                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.sun.activation:jakarta.activation                             | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ com.sun.xml.bind:jaxb-impl                                        | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ com.unboundid:unboundid-ldapsdk                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin.external.flute:flute                                   | W3C License                                | https://opensource.org/licenses/W3C                               | 
+ com.vaadin.external.gwt:gwt-elemental                             | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin.external:gentyref                                      | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-sass-compiler                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-server                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-shared                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.zaxxer:HikariCP                                               | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-codec:commons-codec                                       | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-dbutils:commons-dbutils                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-logging:commons-logging                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.dropwizard.metrics:metrics-core                                | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ jakarta.activation:jakarta.activation-api                         | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ jakarta.xml.bind:jakarta.xml.bind-api                             | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ javax.inject:javax.inject                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ javax.validation:validation-api                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ javax.ws.rs:javax.ws.rs-api                                       | EPL, Version 2.0                           | https://opensource.org/licenses/EPL-2.0                           | 
+ net.logstash.logback:logstash-logback-encoder                     | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.commons:commons-lang3                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.commons:commons-math3                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.commons:commons-text                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.httpcomponents:httpasyncclient                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.httpcomponents:httpclient                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.httpcomponents:httpcore                                | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.httpcomponents:httpcore-nio                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.bitbucket.b_c:jose4j                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.bouncycastle:bcpkix-jdk15on                                   | Bouncy Castle License                      | https://www.bouncycastle.org/licence.html                         | 
+ org.bouncycastle:bcprov-jdk15on                                   | Bouncy Castle License                      | https://www.bouncycastle.org/licence.html                         | 
+ org.bouncycastle:bcutil-jdk15on                                   | Bouncy Castle License                      | https://www.bouncycastle.org/licence.html                         | 
+ org.checkerframework:checker-qual                                 | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.jsoup:jsoup                                                   | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.slf4j:slf4j-api                                               | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.w3c.css:sac                                                   | W3C License                                | https://opensource.org/licenses/W3C                               | 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The open source code of the libraries can be obtained by sending an email to legal@hivemq.com.

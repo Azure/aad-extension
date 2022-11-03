@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<enterprise-security-extension
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="enterprise-security-extension.xsd"
+        version="1">
+    <realms>
+        <!-- a oauth provider-->
+        <file-realm>
+            <name>file-provider</name>
+            <enabled>true</enabled>
+            <configuration>
+                <file-path>ese-file-auth.xml</file-path>
+            </configuration>
+        </file-realm>
+        <!-- a postgresql db-->
+        <sql-realm>
+            <name>postgres-backend</name>
+            <enabled>true</enabled>
+            <configuration>
+                <db-type>POSTGRES</db-type>
+                <db-name>hivemq</db-name>
+                <db-host>hostname</db-host>
+                <db-port>5432</db-port>
+                <db-username>hivemq</db-username>
+                <db-password>password</db-password>
+            </configuration>
+        </sql-realm>
+    </realms>
+    <pipelines>
+        <listener-pipeline listener="ALL">
+            <allow-all-authentication-manager/>
+            <file-authorization-manager>
+                <realm>file-provider</realm>
+            </file-authorization-manager>
+        </listener-pipeline>
+    </pipelines>
+</enterprise-security-extension>

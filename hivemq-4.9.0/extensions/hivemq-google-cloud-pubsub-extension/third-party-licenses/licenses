@@ -1,0 +1,84 @@
+HiveMQ Enterprise Extension for Google Cloud Pub/Sub Third Party Libraries
+==============================
+
+HiveMQ Enterprise Extension for Google Cloud Pub/Sub uses the following third party libraries:
+
+Library                                                            | License                                    | License text                                                      | Notes
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ch.qos.logback:logback-classic                                    | EPL, Version 1.0                           | https://opensource.org/licenses/EPL-1.0                           | 
+ ch.qos.logback:logback-core                                       | EPL, Version 1.0                           | https://opensource.org/licenses/EPL-1.0                           | 
+ com.github.ben-manes.caffeine:caffeine                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.android:annotations                                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.api.grpc:proto-google-cloud-pubsub-v1                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.api.grpc:proto-google-common-protos                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.api.grpc:proto-google-iam-v1                           | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.api:api-common                                         | BSD                                        | https://github.com/googleapis/api-common-java/blob/master/LICENSE | 
+ com.google.api:gax                                                | BSD                                        | https://github.com/googleapis/gax-java/blob/master/LICENSE        | 
+ com.google.api:gax-grpc                                           | BSD                                        | https://github.com/googleapis/gax-java/blob/master/LICENSE        | 
+ com.google.api:gax-httpjson                                       | BSD                                        | https://github.com/googleapis/gax-java/blob/master/LICENSE        | 
+ com.google.auth:google-auth-library-credentials                   | BSD New license                            | http://opensource.org/licenses/BSD-3-Clause                       | 
+ com.google.auth:google-auth-library-oauth2-http                   | BSD New license                            | http://opensource.org/licenses/BSD-3-Clause                       | 
+ com.google.auto.value:auto-value-annotations                      | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.cloud:google-cloud-pubsub                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.code.findbugs:jsr305                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.code.gson:gson                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.dagger:dagger                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.errorprone:error_prone_annotations                     | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:failureaccess                                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:guava                                            | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.guava:listenablefuture                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.http-client:google-http-client                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.http-client:google-http-client-gson                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.j2objc:j2objc-annotations                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.google.protobuf:protobuf-java                                 | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ com.google.protobuf:protobuf-java-util                            | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ com.google.re2j:re2j                                              | Go License                                 | https://golang.org/LICENSE                                        | 
+ com.sun.activation:jakarta.activation                             | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 |
+ com.sun.xml.bind:jaxb-impl                                        | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ com.vaadin.external.flute:flute                                   | W3C License                                | https://opensource.org/licenses/W3C                               | 
+ com.vaadin.external.gwt:gwt-elemental                             | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin.external:gentyref                                      | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-sass-compiler                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-server                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ com.vaadin:vaadin-shared                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-codec:commons-codec                                       | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ commons-logging:commons-logging                                   | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.dropwizard.metrics:metrics-core                                | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-alts                                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-api                                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-auth                                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-context                                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-core                                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-googleapis                                           | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-grpclb                                               | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-netty-shaded                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-protobuf                                             | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-protobuf-lite                                        | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-services                                             | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-stub                                                 | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.grpc:grpc-xds                                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.opencensus:opencensus-api                                      | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.opencensus:opencensus-contrib-http-util                        | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.opencensus:opencensus-proto                                    | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ io.perfmark:perfmark-api                                          | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ jakarta.activation:jakarta.activation-api                         | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ jakarta.xml.bind:jakarta.xml.bind-api                             | EDL, Version 1.0                           | https://www.eclipse.org/org/documents/edl-v10.php                 | 
+ javax.annotation:javax.annotation-api                             | CDDL, Version 1.1                          | https://oss.oracle.com/licenses/CDDL+GPL-1.1                      | 
+ javax.inject:javax.inject                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ javax.ws.rs:javax.ws.rs-api                                       | EPL, Version 2.0                           | https://opensource.org/licenses/EPL-2.0                           | 
+ net.openhft:zero-allocation-hashing                               | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.commons:commons-lang3                                  | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.httpcomponents:httpclient                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.apache.httpcomponents:httpcore                                | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.checkerframework:checker-qual                                 | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.codehaus.mojo:animal-sniffer-annotations                      | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.conscrypt:conscrypt-openjdk-uber                              | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.jetbrains:annotations                                         | Apache License, Version 2.0                | https://opensource.org/licenses/Apache-2.0                        | 
+ org.jsoup:jsoup                                                   | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.slf4j:slf4j-api                                               | MIT License                                | https://opensource.org/licenses/MIT                               | 
+ org.threeten:threetenbp                                           | BSD 3-Clause License                       | https://opensource.org/licenses/BSD-3-Clause                      | 
+ org.w3c.css:sac                                                   | W3C License                                | https://opensource.org/licenses/W3C                               | 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The open source code of the libraries can be obtained by sending an email to legal@hivemq.com.

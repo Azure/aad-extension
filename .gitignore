@@ -9,6 +9,7 @@ out/
 !.idea/codeStyles
 !.idea/inspectionProfiles
 !.idea/runConfigurations
-
+bin
+hivemq-4.9.0/bin/hivemq.jar
 .java-version
 .DS_Store
